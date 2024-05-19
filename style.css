@@ -1,0 +1,42 @@
+html, body {
+    margin: 0px;
+    border: 0px;
+    font-family: sans-serif;
+}
+
+
+div {
+    width: auto;
+    height: auto;
+    margin: 45px;
+    padding: 0px ;
+}
+
+.header {
+    width: 1366px;
+    height: 40px;
+    padding: 10px;
+    display: flex;
+    background-color: black;
+    color: white;
+}
+
+.title {
+    text-justify: center;
+    margin-bottom: 5px;
+    display: flex;
+    font-family: "Danfo", sans-serif; 
+    margin: 0px;
+    
+}
+
+.menu {
+    width: 36px;
+    height: 36px;
+    background-color:transparent;
+    cursor: pointer;
+}
+
+.nav {
+    margin: 10px;
+}
