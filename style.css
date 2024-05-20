@@ -4,16 +4,15 @@ html, body {
     font-family: sans-serif;
 }
 
-
 div {
     width: auto;
     height: auto;
     margin: 45px;
-    padding: 0px ;
+    padding: 0px;
+
 }
 
 .header {
-    width: 1366px;
     height: 40px;
     padding: 10px;
     display: flex;
@@ -22,12 +21,22 @@ div {
 }
 
 .title {
-    text-justify: center;
-    margin-bottom: 5px;
-    display: flex;
     font-family: "Danfo", sans-serif; 
+    padding-left: 35%;
+    text-justify: center;
     margin: 0px;
-    
+}
+
+@media (min-width: 100px){  
+    .title{
+        padding-left: 10%;
+    }
+}
+
+@media (min-width: 600px){  
+    .title{
+        padding-left: 35%;
+    }
 }
 
 .menu {
@@ -37,6 +46,47 @@ div {
     cursor: pointer;
 }
 
-.nav {
-    margin: 10px;
+#menu {
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.search {
+    width: 40px;
+    height: 36px;
+    size: 150%;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#search {
+    width: 40px;
+    height: 36px;
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.img {
+    width: 300px;
+    height: 300px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    top: 0;
+    padding: none;
+    border-radius: 5%;
+    object-fit: cover;
+    border: 1px black solid;
+    position: relative;
+    transition: all .2s ease-in-out;
+}
+
+.img:hover {
+    top:-4px;
+    box-shadow:0 4px 3px #0e0e0e
 }
