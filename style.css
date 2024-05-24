@@ -42,7 +42,7 @@ a, a:visited {
 
 @media (min-width: 100px){  
     .title{
-        padding-left: 15%;
+        padding-left: 10%;
         position: relative;
         font-size: 160%;
         top: 4px;
