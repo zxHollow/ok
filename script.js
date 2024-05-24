@@ -8,4 +8,4 @@ function menu(){
       mn.style.display="none";
       ul.style.display="none";
     }
-   }
+}

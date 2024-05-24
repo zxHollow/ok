@@ -185,3 +185,82 @@ a, a:visited {
     white-space:nowrap;
     -webkit-overflow-scrolling: touch;
 } 
+
+
+
+
+
+#con {
+    margin-top: 50%;
+    position: absolute;
+    top: 60px;
+    left: 20%;
+    border-radius: 10px 10px 10px 10px;
+    scale: 130%;
+    border-color: black;
+}
+
+#pass {
+    margin-top: 50%;
+    position: absolute;
+    border-radius: 10px 10px 10px 10px;
+    scale: 130%;
+    border: none;
+    top: 90px;
+    left: 20%;
+    
+}
+
+#div1 {
+    justify-content: center;
+    background-color: rgb(226, 226, 226);
+    opacity: 60%;
+    box-shadow:0 2px 2px #292929;
+    border: 2px #0e0e0e;
+    border-radius: 5%;
+    margin-left: 46.85%;
+    margin-right: 38%;
+    margin-top: 10%;
+    margin-bottom: 30%;
+    width: 301px;
+    height: 401px;
+    float: left;
+}
+
+input, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: none;
+    border-style: none;
+} 
+
+.div1 {
+    justify-content: center;
+    margin-left: 46.85%;
+    margin-right: 38%;
+    margin-top: 10%;
+    margin-bottom: 30%;
+    width: 301px;
+    height: 401px;
+}
+
+.image {
+    float: left;
+    height: 400px;
+    margin-top: 10%;
+    margin-left: 20%;
+    border: 1px black solid;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+#lock {
+    position: absolute;
+    scale: 40%;
+}
+
+::placeholder {
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+}
+
